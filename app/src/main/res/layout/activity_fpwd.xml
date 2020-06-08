@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="需要找回的账号"
+        android:textColor="@color/colorGray"
+        android:textSize="20sp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/et_fpwd_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"
+        android:textCursorDrawable="@drawable/bg_cursor"
+        android:background="@drawable/bg_login_ed"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keyword"
+        android:textColor="@color/colorGray"
+        android:textSize="20sp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/et_fpwd_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"
+        android:textCursorDrawable="@drawable/bg_cursor"
+        android:background="@drawable/bg_login_ed"
+        android:inputType="textPassword"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="需要重置的密码"
+        android:textColor="@color/colorGray"
+        android:textSize="20sp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/et_fpwd_repassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"
+        android:textCursorDrawable="@drawable/bg_cursor"
+        android:background="@drawable/bg_login_ed"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btn_fpwd_modify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_btn_login"
+        android:textColor="@color/colorWhite"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:text="@string/modify_pwd"/>
+
+</LinearLayout>

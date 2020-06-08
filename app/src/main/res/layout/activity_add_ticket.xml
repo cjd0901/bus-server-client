@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出发城市："
+            android:padding="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/add_ticket_from_station"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="到达城市："
+            android:padding="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/add_ticket_to_station"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出发日期："
+            android:padding="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/add_ticket_departure_date"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:hint="例如：2020-02-02"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出发时间："
+            android:padding="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/add_ticket_departure_time"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:hint="例如：10:10:00"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车票数量："
+            android:padding="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/add_ticket_rest_ticket"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车票价格："
+            android:padding="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/add_ticket_price"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="巴士规格："
+            android:padding="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/add_ticket_bus_spec"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="服  务  费："
+            android:padding="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/add_ticket_service_price"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_ticket_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="添加车票"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:background="@drawable/btn_primary"/>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BusServerC</string>
+    <string name="project_name">BusServer</string>
+    <string name="login_username">账号</string>
+    <string name="login_password">密码</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_register">注册</string>
+    <string name="forget_pwd">忘记密码？</string>
+    <string name="keyword">二级密码</string>
+    <string name="modify_pwd">重置密码</string>
+    <string name="register_realname">真实姓名</string>
+    <string name="register_idcard">身份证号</string>
+    <string name="register_phone_num">手机号</string>
+    <string name="register_email">邮箱</string>
+    <string name="title_activity_container">ContainerActivity</string>
+    <string name="title_home">首页</string>
+    <string name="title_order">订单</string>
+    <string name="title_mine">我的</string>
+</resources>

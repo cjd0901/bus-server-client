@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="请输入新的密码："
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorWhite"/>
+
+    <EditText
+        android:id="@+id/modify_password_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:textColor="@color/colorWhite"
+        android:textCursorDrawable="@drawable/bg_cursor"
+        android:background="@drawable/bg_login_ed"/>
+
+    <Button
+        android:id="@+id/confirm_modify_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认修改"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@color/colorWhite"/>
+
+</LinearLayout>
